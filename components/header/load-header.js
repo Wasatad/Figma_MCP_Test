@@ -63,11 +63,23 @@
     }
   }
 
-  // Загружаем header при загрузке DOM
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', loadHeader);
-  } else {
+
+  // Загружаем header после полной загрузки страницы (включая стили)
+  // Это гарантирует, что все CSS файлы загружены и применены
+  if (document.readyState === 'complete') {
+    // Страница уже полностью загружена
     loadHeader();
+  } else if (document.readyState === 'interactive') {
+    // DOM готов, но ресурсы еще загружаются
+    window.addEventListener('load', loadHeader);
+  } else {
+    // DOM еще не готов
+    window.addEventListener('load', loadHeader);
+    // Также добавляем обработчик на DOMContentLoaded для быстрой загрузки
+    document.addEventListener('DOMContentLoaded', () => {
+      // Небольшая задержка для загрузки стилей через @import
+      setTimeout(loadHeader, 200);
+    });
   }
 })();
 
