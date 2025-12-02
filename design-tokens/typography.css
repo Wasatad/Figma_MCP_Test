@@ -1,0 +1,113 @@
+:root {
+  --font-stack-inter: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+
+  /* Display 2xl */
+  --display-2xl-regular: 400 72px/90px var(--font-stack-inter);
+  --display-2xl-regular-letter-spacing: -0.02em;
+  --display-2xl-medium: 500 72px/90px var(--font-stack-inter);
+  --display-2xl-medium-letter-spacing: -0.02em;
+  --display-2xl-semibold: 600 72px/90px var(--font-stack-inter);
+  --display-2xl-semibold-letter-spacing: -0.02em;
+  --display-2xl-bold: 700 72px/90px var(--font-stack-inter);
+  --display-2xl-bold-letter-spacing: -0.02em;
+
+  /* Display xl */
+  --display-xl-regular: 400 60px/72px var(--font-stack-inter);
+  --display-xl-regular-letter-spacing: -0.02em;
+  --display-xl-medium: 500 60px/72px var(--font-stack-inter);
+  --display-xl-medium-letter-spacing: -0.02em;
+  --display-xl-semibold: 600 60px/72px var(--font-stack-inter);
+  --display-xl-semibold-letter-spacing: -0.02em;
+  --display-xl-bold: 700 60px/72px var(--font-stack-inter);
+  --display-xl-bold-letter-spacing: -0.02em;
+
+  /* Display lg */
+  --display-lg-regular: 400 48px/60px var(--font-stack-inter);
+  --display-lg-regular-letter-spacing: -0.02em;
+  --display-lg-medium: 500 48px/60px var(--font-stack-inter);
+  --display-lg-medium-letter-spacing: -0.02em;
+  --display-lg-semibold: 600 48px/60px var(--font-stack-inter);
+  --display-lg-semibold-letter-spacing: -0.02em;
+  --display-lg-bold: 700 48px/60px var(--font-stack-inter);
+  --display-lg-bold-letter-spacing: -0.02em;
+
+  /* Display md */
+  --display-md-regular: 400 36px/44px var(--font-stack-inter);
+  --display-md-regular-letter-spacing: -0.02em;
+  --display-md-medium: 500 36px/44px var(--font-stack-inter);
+  --display-md-medium-letter-spacing: -0.02em;
+  --display-md-semibold: 600 36px/44px var(--font-stack-inter);
+  --display-md-semibold-letter-spacing: -0.02em;
+  --display-md-bold: 700 36px/44px var(--font-stack-inter);
+  --display-md-bold-letter-spacing: -0.02em;
+
+  /* Display sm */
+  --display-sm-regular: 400 30px/38px var(--font-stack-inter);
+  --display-sm-regular-letter-spacing: 0em;
+  --display-sm-medium: 500 30px/38px var(--font-stack-inter);
+  --display-sm-medium-letter-spacing: 0em;
+  --display-sm-semibold: 600 30px/38px var(--font-stack-inter);
+  --display-sm-semibold-letter-spacing: 0em;
+  --display-sm-bold: 700 30px/38px var(--font-stack-inter);
+  --display-sm-bold-letter-spacing: 0em;
+
+  /* Display xs */
+  --display-xs-regular: 400 24px/32px var(--font-stack-inter);
+  --display-xs-regular-letter-spacing: 0em;
+  --display-xs-medium: 500 24px/32px var(--font-stack-inter);
+  --display-xs-medium-letter-spacing: 0em;
+  --display-xs-semibold: 600 24px/32px var(--font-stack-inter);
+  --display-xs-semibold-letter-spacing: 0em;
+  --display-xs-bold: 700 24px/32px var(--font-stack-inter);
+  --display-xs-bold-letter-spacing: 0em;
+
+  /* Text xl */
+  --text-xl-regular: 400 20px/30px var(--font-stack-inter);
+  --text-xl-regular-letter-spacing: 0em;
+  --text-xl-medium: 500 20px/30px var(--font-stack-inter);
+  --text-xl-medium-letter-spacing: 0em;
+  --text-xl-semibold: 600 20px/30px var(--font-stack-inter);
+  --text-xl-semibold-letter-spacing: 0em;
+  --text-xl-bold: 700 20px/30px var(--font-stack-inter);
+  --text-xl-bold-letter-spacing: 0em;
+
+  /* Text lg */
+  --text-lg-regular: 400 18px/28px var(--font-stack-inter);
+  --text-lg-regular-letter-spacing: 0em;
+  --text-lg-medium: 500 18px/28px var(--font-stack-inter);
+  --text-lg-medium-letter-spacing: 0em;
+  --text-lg-semibold: 600 18px/30px var(--font-stack-inter);
+  --text-lg-semibold-letter-spacing: 0em;
+  --text-lg-bold: 700 18px/28px var(--font-stack-inter);
+  --text-lg-bold-letter-spacing: 0em;
+
+  /* Text md */
+  --text-md-regular: 400 16px/24px var(--font-stack-inter);
+  --text-md-regular-letter-spacing: 0em;
+  --text-md-medium: 500 16px/24px var(--font-stack-inter);
+  --text-md-medium-letter-spacing: 0em;
+  --text-md-semibold: 600 16px/24px var(--font-stack-inter);
+  --text-md-semibold-letter-spacing: 0em;
+  --text-md-bold: 700 16px/24px var(--font-stack-inter);
+  --text-md-bold-letter-spacing: 0em;
+
+  /* Text sm */
+  --text-sm-regular: 400 14px/20px var(--font-stack-inter);
+  --text-sm-regular-letter-spacing: 0em;
+  --text-sm-medium: 500 14px/20px var(--font-stack-inter);
+  --text-sm-medium-letter-spacing: 0em;
+  --text-sm-semibold: 600 14px/20px var(--font-stack-inter);
+  --text-sm-semibold-letter-spacing: 0em;
+  --text-sm-bold: 700 14px/20px var(--font-stack-inter);
+  --text-sm-bold-letter-spacing: 0em;
+
+  /* Text xs */
+  --text-xs-regular: 400 12px/18px var(--font-stack-inter);
+  --text-xs-regular-letter-spacing: 0em;
+  --text-xs-medium: 500 12px/18px var(--font-stack-inter);
+  --text-xs-medium-letter-spacing: 0em;
+  --text-xs-semibold: 600 12px/18px var(--font-stack-inter);
+  --text-xs-semibold-letter-spacing: 0em;
+  --text-xs-bold: 700 12px/18px var(--font-stack-inter);
+  --text-xs-bold-letter-spacing: 0em;
+}
