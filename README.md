@@ -1,4 +1,4 @@
-# KRON Design Tokens & UI Library
+# Design Tokens & UI Library
 
 Design tokens and foundational UI building blocks extracted from the KRON Figma libraries:
 
