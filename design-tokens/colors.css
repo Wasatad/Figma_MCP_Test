@@ -1,0 +1,99 @@
+:root {
+  /* Base */
+  --white: #ffffff;
+  --black: #000000;
+
+  /* Gray */
+  --gray-25: #fdfdfd;
+  --gray-50: #fafafa;
+  --gray-100: #f5f5f5;
+  --gray-200: #e9eaeb;
+  --gray-300: #d5d7da;
+  --gray-400: #a4a7ae;
+  --gray-500: #717680;
+  --gray-600: #535862;
+  --gray-700: #414651;
+  --gray-800: #252b37;
+  --gray-900: #181d27;
+
+  /* Blue Gray */
+  --blue-gray-25: #fcfcfd;
+  --blue-gray-50: #f5f7fa;
+  --blue-gray-100: #e6eef8;
+  --blue-gray-200: #d2e0f2;
+  --blue-gray-300: #afc8e8;
+  --blue-gray-400: #7ca7da;
+  --blue-gray-500: #578ecc;
+  --blue-gray-600: #3e78b3;
+  --blue-gray-700: #325f8f;
+  --blue-gray-800: #254867;
+  --blue-gray-900: #122536;
+
+  /* Primary */
+  --primary-25: #f5faff;
+  --primary-50: #eaf4fe;
+  --primary-100: #d7ebfd;
+  --primary-200: #b9dafa;
+  --primary-300: #92c5f7;
+  --primary-400: #6bb1f3;
+  --primary-500: #4c9afd;
+  --primary-600: #3386ea;
+  --primary-700: #2d65ad;
+  --primary-800: #244e87;
+  --primary-900: #1b375c;
+
+  /* Error */
+  --error-25: #fffbfa;
+  --error-50: #fef3f2;
+  --error-100: #fee4e2;
+  --error-200: #fecdca;
+  --error-300: #fda29b;
+  --error-400: #f97066;
+  --error-500: #f04438;
+  --error-600: #d92d20;
+  --error-700: #b42318;
+  --error-800: #912018;
+  --error-900: #7a271a;
+
+  /* Warning */
+  --warning-25: #fffcf5;
+  --warning-50: #fffaeb;
+  --warning-100: #fef0c7;
+  --warning-200: #fedf89;
+  --warning-300: #fec84b;
+  --warning-400: #fdb022;
+  --warning-500: #f79009;
+  --warning-600: #dc6803;
+  --warning-700: #b54708;
+  --warning-800: #93370d;
+  --warning-900: #7a2e0e;
+
+  /* Success */
+  --success-25: #f6fef9;
+  --success-50: #ecfdf3;
+  --success-100: #d1fadf;
+  --success-200: #a6f4c5;
+  --success-300: #6ce9a6;
+  --success-400: #32d583;
+  --success-500: #12b76a;
+  --success-600: #039855;
+  --success-700: #027a48;
+  --success-800: #05603a;
+  --success-900: #054f31;
+
+  /* Gradients - Gray */
+  --gradient-gray-600-500-90: linear-gradient(90deg, rgba(83, 88, 98, 1) 0%, rgba(113, 118, 128, 1) 100%);
+  --gradient-gray-700-600-45: linear-gradient(45deg, rgba(65, 70, 81, 1) 0%, rgba(83, 88, 98, 1) 100%);
+  --gradient-gray-800-600-45: linear-gradient(45deg, rgba(37, 43, 55, 1) 0%, rgba(83, 88, 98, 1) 100%);
+  --gradient-gray-800-600-90: linear-gradient(90deg, rgba(37, 43, 55, 1) 0%, rgba(83, 88, 98, 1) 100%);
+  --gradient-gray-800-700-25: linear-gradient(27deg, rgba(37, 43, 55, 1) 0%, rgba(65, 70, 81, 1) 100%);
+  --gradient-gray-900-600-45: linear-gradient(45deg, rgba(16, 24, 40, 1) 0%, rgba(83, 88, 98, 1) 100%);
+
+  /* Gradients - Primary */
+  --gradient-primary-600-500-90: linear-gradient(90deg, rgba(107, 177, 243, 1) 0%, rgba(146, 197, 247, 1) 100%);
+  --gradient-primary-700-600-45: linear-gradient(45deg, rgba(76, 154, 253, 1) 0%, rgba(107, 177, 243, 1) 100%);
+  --gradient-primary-800-600-45: linear-gradient(45deg, rgba(51, 134, 234, 1) 0%, rgba(107, 177, 243, 1) 100%);
+  --gradient-primary-800-600-90: linear-gradient(90deg, rgba(51, 134, 234, 1) 0%, rgba(107, 177, 243, 1) 100%);
+  --gradient-primary-800-700-25: linear-gradient(27deg, rgba(51, 134, 234, 1) 0%, rgba(76, 154, 253, 1) 100%);
+  --gradient-primary-900-600-45: linear-gradient(45deg, rgba(45, 101, 173, 1) 0%, rgba(107, 177, 243, 1) 100%);
+}

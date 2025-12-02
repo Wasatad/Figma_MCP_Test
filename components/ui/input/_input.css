@@ -1,0 +1,103 @@
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: var(--field-gap);
+  width: min(var(--field-width-desktop), 100%);
+}
+
+.field__label {
+  font: var(--field-label-font);
+  color: var(--gray-700);
+}
+
+.field__control {
+  position: relative;
+}
+
+.input__control,
+.input__control[type='text'],
+.input__control[type='email'],
+.input__control[type='search'],
+.input__control[type='number'],
+.textarea__control {
+  width: 100%;
+  font: var(--input-font);
+  padding: var(--input-padding-y) var(--input-padding-x);
+  border-radius: var(--input-border-radius);
+  border: 1px solid var(--input-border-color);
+  background: var(--input-bg);
+  color: var(--input-color);
+  box-shadow: inset 0 1px 2px rgba(10, 13, 18, 0.04);
+  transition: border-color 150ms ease, box-shadow 150ms ease;
+}
+
+.input__control::placeholder,
+.textarea__control::placeholder {
+  color: var(--input-placeholder);
+}
+
+.input__control:focus-visible,
+.textarea__control:focus-visible {
+  outline: none;
+  border-color: var(--primary-400);
+  box-shadow: var(--input-focus-shadow);
+}
+
+.textarea__control {
+  min-height: 120px;
+  resize: vertical;
+  line-height: 1.5;
+}
+
+.field__hint {
+  font: var(--field-hint-font);
+  color: var(--gray-500);
+}
+
+.field__message {
+  font: var(--field-hint-font);
+  color: var(--gray-700);
+}
+
+.field--error .input__control,
+.field--error .textarea__control {
+  border-color: var(--input-error-border);
+}
+
+.field--error .field__message {
+  color: var(--error-600);
+}
+
+.field--disabled .input__control,
+.field--disabled .textarea__control {
+  background: var(--input-disabled-bg);
+  color: var(--input-disabled-color);
+  pointer-events: none;
+}
+
+.field--disabled .field__label {
+  color: var(--gray-400);
+}
+
+.field__affix {
+  position: absolute;
+  inset-inline-end: var(--num-3);
+  inset-block: 50%;
+  transform: translateY(-50%);
+  font: var(--text-sm-medium);
+  color: var(--gray-400);
+}
+
+@media (max-width: 640px) {
+  .field {
+    width: var(--field-width-mobile);
+  }
+}
+
+@media (min-width: 641px) {
+  .field.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: var(--num-4);
+  }
+}

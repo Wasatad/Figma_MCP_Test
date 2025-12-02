@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Главная страница | KRON</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header будет загружен через модуль -->
+  <script src="./components/header/load-header.js" defer></script>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-screen">
+      <div class="hero-screen__container">
+        <div class="hero-screen__content">
+          <div class="hero-screen__tags">
+            <span class="hero-tag">Аутстаф</span>
+            <span class="hero-tag">Дистрибьюция 1С</span>
+            <span class="hero-tag">Консалтинг</span>
+          </div>
+          <div class="hero-screen__text-btn">
+            <div class="hero-screen__column">
+              <h1 class="hero-screen__title">Автоматизируем бизнес-процессы</h1>
+            </div>
+            <div class="hero-screen__column">
+              <p class="hero-screen__description">
+                Разрабатываем и внедряем решения на платформе 1С. Усиливаем команды опытными квалифицированными разработчиками и аналитиками.
+              </p>
+              <button class="btn btn--primary btn--xl" type="button">Заказать звонок</button>
+            </div>
+          </div>
+        </div>
+        <div class="hero-screen__cards">
+          <div class="service-card">
+            <img src="./assets/images/hero/service-card-1-licenses.png" alt="Лицензии 1С" class="service-card__img">
+            <div class="service-card__descr">
+              <h3 class="service-card__title">Лицензии 1С</h3>
+              <p class="service-card__text">Подбираем и оформляем лицензии 1С под нужды вашего бизнеса.</p>
+            </div>
+          </div>
+          <div class="service-card">
+            <img src="./assets/images/hero/service-card-2-development.png" alt="Разработка 1С" class="service-card__img">
+            <div class="service-card__descr">
+              <h3 class="service-card__title">Разработка 1С</h3>
+              <p class="service-card__text">Разрабатываем конфигурации и дорабатываем типовые решения</p>
+            </div>
+          </div>
+          <div class="service-card">
+            <img src="./assets/images/hero/service-card-3-bitrix24.png" alt="Битрикс 24" class="service-card__img">
+            <div class="service-card__descr">
+              <h3 class="service-card__title">Битрикс 24</h3>
+              <p class="service-card__text">Интегрируем Битрикс24 и 1С. Создаем и оптимизируем обмен данными.</p>
+            </div>
+          </div>
+          <div class="service-card">
+            <img src="./assets/images/hero/service-card-4-web.png" alt="Веб-разработка" class="service-card__img">
+            <div class="service-card__descr">
+              <h3 class="service-card__title">Веб-разработка</h3>
+              <p class="service-card__text">Создаём современные сайты и веб-приложения под ключ.</p>
+            </div>
+          </div>
+          <div class="service-card">
+            <img src="./assets/images/hero/service-card-5-services.png" alt="Сервисы 1С" class="service-card__img">
+            <div class="service-card__descr">
+              <h3 class="service-card__title">Сервисы 1С</h3>
+              <p class="service-card__text">Осуществляем поддержку программ 1С. Настраиваем и обновляем ПО.</p>
+            </div>
+          </div>
+        </div>
+        <div class="hero-screen__slider-controls">
+          <!-- Slider controls will be here -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="partners">
+      <div class="partners__container">
+        <p class="partners__title">нам доверяют</p>
+        <div class="partners__logos">
+          <!-- Partner logos will be added here -->
+          <div class="partners__logo-placeholder">1C</div>
+          <div class="partners__logo-placeholder">Axiom</div>
+          <div class="partners__logo-placeholder">PIK</div>
+          <div class="partners__logo-placeholder">Zenden</div>
+          <div class="partners__logo-placeholder">ДИАР Групп</div>
+          <div class="partners__logo-placeholder">IT Capital</div>
+          <div class="partners__logo-placeholder">Sibintek</div>
+          <div class="partners__logo-placeholder">Raitek</div>
+          <div class="partners__logo-placeholder">Rarus</div>
+          <div class="partners__logo-placeholder">A-Plan</div>
+          <div class="partners__logo-placeholder">Enikom</div>
+          <div class="partners__logo-placeholder">Garvin</div>
+          <div class="partners__logo-placeholder">Gradium</div>
+          <div class="partners__logo-placeholder">Ferronordic</div>
+          <div class="partners__logo-placeholder">Schneider</div>
+          <div class="partners__logo-placeholder">ATOL</div>
+          <div class="partners__logo-placeholder">Print Bar</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Company Section -->
+    <section class="about-company">
+      <div class="about-company__container">
+        <div class="about-company__content">
+          <div class="about-company__title-block">
+            <h2 class="about-company__title">
+              Работа с КРОН —<br>
+              работа с командой профессионалов
+            </h2>
+          </div>
+          <div class="about-company__about">
+            <p class="about-company__text">
+              Мы всегда работаем на результат, помогаем выбрать и реализовать оптимальное решение для достижения ваших бизнес-целей.
+            </p>
+            <p class="about-company__text">
+              Многолетний опыт и профессионализм наших сотрудников позволяют нам успешно выполнять проекты по модификации, адаптации и разработке прикладных решений для автоматизации бизнеса любой сложности.
+            </p>
+            <div class="about-company__facts">
+              <div class="fact">
+                <div class="fact__label">Опыт</div>
+                <div class="fact__content">
+                  <div class="fact__number">
+                    <span class="fact__number-value">7</span>
+                    <span class="fact__number-plus">+</span>
+                  </div>
+                  <p class="fact__description">Лет средний стаж работы разработчиков</p>
+                </div>
+              </div>
+              <div class="fact">
+                <div class="fact__label">Надежность</div>
+                <div class="fact__content">
+                  <div class="fact__number">
+                    <span class="fact__number-value">200</span>
+                    <span class="fact__number-plus">+</span>
+                  </div>
+                  <p class="fact__description">Успешно реализованных проектов</p>
+                </div>
+              </div>
+              <div class="fact">
+                <div class="fact__label">Команда</div>
+                <div class="fact__content">
+                  <div class="fact__number">
+                    <span class="fact__number-value">50</span>
+                    <span class="fact__number-plus">+</span>
+                  </div>
+                  <p class="fact__description">Технических специалистов в штате</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+      <div class="services__container">
+        <div class="services__content">
+          <div class="services__header">
+            <h2 class="services__title">Наши услуги</h2>
+            <p class="services__subtitle">
+              Адаптируем, модифицируем прикладные решения на платформе «1С:Предприятие 8», разрабатываем личные кабинеты на web и настраиваем любые интеграции
+            </p>
+          </div>
+          <div class="services__grid">
+            <div class="service-card-large">
+              <div class="service-card-large__icon"></div>
+              <div class="service-card-large__text">
+                <h3 class="service-card-large__title">Установка 1С</h3>
+                <p class="service-card-large__description">Устанавливаем и запускаем 1С под задачи вашего бизнеса. Проводим первичную настройку и подключаем пользователей.</p>
+              </div>
+            </div>
+            <div class="service-card-large service-card-large--highlighted">
+              <div class="service-card-large__icon"></div>
+              <div class="service-card-large__text">
+                <h3 class="service-card-large__title">Настройка 1С</h3>
+                <p class="service-card-large__description">Подстраиваем систему под бизнес-процессы: права, формы, отчеты, обмены и автоматизацию рутинных операций.</p>
+              </div>
+            </div>
+            <div class="service-card-large">
+              <div class="service-card-large__icon"></div>
+              <div class="service-card-large__text">
+                <h3 class="service-card-large__title">Обновление 1С</h3>
+                <p class="service-card-large__description">Обновляем платформу и конфигурации 1С любой сложности, сохраняя ваши данные и индивидуальные доработки.</p>
+              </div>
+            </div>
+            <div class="service-card-large">
+              <div class="service-card-large__icon"></div>
+              <div class="service-card-large__text">
+                <h3 class="service-card-large__title">Разработка на 1С</h3>
+                <p class="service-card-large__description">Создаем новые модули, интеграции и отчеты на платформе 1С для любых отраслевых задач.</p>
+              </div>
+            </div>
+            <div class="service-card-large">
+              <div class="service-card-large__icon"></div>
+              <div class="service-card-large__text">
+                <h3 class="service-card-large__title">Интеграция с 1С-Битрикс</h3>
+                <p class="service-card-large__description">Связываем 1С с сайтом на Битрикс для обмена данными о товарах, заказах и клиентах.</p>
+              </div>
+            </div>
+            <div class="service-card-large">
+              <div class="service-card-large__icon"></div>
+              <div class="service-card-large__text">
+                <h3 class="service-card-large__title">Аренда 1С в облаке</h3>
+                <p class="service-card-large__description">Предоставляем готовую 1С в облаке: доступ с любого устройства, резервное копирование и защита данных.</p>
+              </div>
+            </div>
+            <div class="service-card-large">
+              <div class="service-card-large__icon"></div>
+              <div class="service-card-large__text">
+                <h3 class="service-card-large__title">Веб-разработка</h3>
+                <p class="service-card-large__description">Разрабатываем адаптивные сайты и веб‑приложения под ваши бизнес‑цели на современных технологиях.</p>
+              </div>
+            </div>
+            <div class="service-card-large">
+              <div class="service-card-large__icon"></div>
+              <div class="service-card-large__text">
+                <h3 class="service-card-large__title">Аутстаффинг</h3>
+                <p class="service-card-large__description">Предоставляем специалистов по 1С и веб‑разработке для усиления вашей команды без лишних расходов.</p>
+              </div>
+            </div>
+            <div class="service-card-cta">
+              <div class="service-card-cta__text">
+                <h3 class="service-card-cta__title">У вас нестандартная задача?</h3>
+                <p class="service-card-cta__description">Оставьте заявку и наши специалисты постараются подобрать решение</p>
+              </div>
+              <button class="btn btn--primary btn--xl" type="button">Заказать звонок</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects">
+      <div class="projects__container">
+        <div class="projects__content">
+          <div class="projects__header">
+            <h2 class="projects__title">Проекты</h2>
+            <p class="projects__subtitle">
+              За годы работы мы приняли участие во множестве проектов внедрения и в разработках программных продуктов как для крупных холдингов, так и для небольших организаций
+            </p>
+          </div>
+          <div class="projects__list">
+            <div class="project-accordion">
+              <div class="project-accordion__header">
+                <div class="project-accordion__number">01</div>
+                <div class="project-accordion__info">
+                  <h3 class="project-accordion__title">Разработка на 1С:ERP. Интеграция с Контур.Диадок</h3>
+                  <div class="project-accordion__tags">
+                    <span class="project-tag">1С:ERP</span>
+                    <span class="project-tag">Контур.Диадок</span>
+                  </div>
+                </div>
+                <button class="project-accordion__toggle" aria-expanded="false" aria-label="Раскрыть детали проекта">
+                  <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M24 16V32M16 24H32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="project-accordion">
+              <div class="project-accordion__header">
+                <div class="project-accordion__number">02</div>
+                <div class="project-accordion__info">
+                  <h3 class="project-accordion__title">Доработка 1С:ERP, разработка блока "Маркировка" с нуля</h3>
+                  <div class="project-accordion__tags">
+                    <span class="project-tag">1С:ERP</span>
+                    <span class="project-tag">Контур.Диадок</span>
+                  </div>
+                </div>
+                <button class="project-accordion__toggle" aria-expanded="false" aria-label="Раскрыть детали проекта">
+                  <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M24 16V32M16 24H32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="project-accordion project-accordion--open">
+              <div class="project-accordion__header">
+                <div class="project-accordion__number">03</div>
+                <div class="project-accordion__info">
+                  <h3 class="project-accordion__title">Внедрение системы оборота подарочных сертификатов в торговой компании</h3>
+                  <div class="project-accordion__tags">
+                    <span class="project-tag">1С:ERP</span>
+                    <span class="project-tag">DIGIFT</span>
+                  </div>
+                </div>
+                <button class="project-accordion__toggle" aria-expanded="true" aria-label="Скрыть детали проекта">
+                  <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16 24H32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  </svg>
+                </button>
+              </div>
+              <div class="project-accordion__content">
+                <div class="project-details">
+                  <div class="project-details__about">
+                    <div class="project-details__block">
+                      <h4 class="project-details__label">Задача</h4>
+                      <p class="project-details__text">Внедрение системы оборота подарочных сертификатов в торговой компании</p>
+                    </div>
+                    <div class="project-details__block">
+                      <h4 class="project-details__label">Результат</h4>
+                      <p class="project-details__text">Автоматизирован процесс оборота подарочных сертификатов в торговой компании, охватив все ключевые каналы продаж: розничную сеть, интернет-магазин и внутренний учет.</p>
+                    </div>
+                    <div class="project-details__stats">
+                      <div class="project-stat">
+                        <div class="project-stat__value">> 2 000</div>
+                        <div class="project-stat__label">часов</div>
+                      </div>
+                      <div class="project-stat">
+                        <div class="project-stat__value">> 60</div>
+                        <div class="project-stat__label">рабочих мест</div>
+                      </div>
+                    </div>
+                    <button class="btn btn--secondary-color btn--xl" type="button">Подробнее</button>
+                  </div>
+                  <div class="project-details__image">
+                    <img src="./assets/images/projects/project-image-gift-cards.png" alt="Внедрение системы оборота подарочных сертификатов" class="project-details__img">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="project-accordion">
+              <div class="project-accordion__header">
+                <div class="project-accordion__number">04</div>
+                <div class="project-accordion__info">
+                  <h3 class="project-accordion__title">Доработка конфигурации по управлению проектами строительной компании</h3>
+                  <div class="project-accordion__tags">
+                    <span class="project-tag">1С:PM</span>
+                    <span class="project-tag">Google API</span>
+                  </div>
+                </div>
+                <button class="project-accordion__toggle" aria-expanded="false" aria-label="Раскрыть детали проекта">
+                  <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M24 16V32M16 24H32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="project-accordion">
+              <div class="project-accordion__header">
+                <div class="project-accordion__number">05</div>
+                <div class="project-accordion__info">
+                  <h3 class="project-accordion__title">Консолидация зарплатного и кадрового учета 9 организаций, входящих в один холдинг</h3>
+                  <div class="project-accordion__tags">
+                    <span class="project-tag">ЗИК 7.7</span>
+                    <span class="project-tag">1С:ЗУП</span>
+                    <span class="project-tag">КАМИН 5.0</span>
+                  </div>
+                </div>
+                <button class="project-accordion__toggle" aria-expanded="false" aria-label="Раскрыть детали проекта">
+                  <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M24 16V32M16 24H32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Catalog Section -->
+    <section class="catalog">
+      <div class="catalog__container">
+        <div class="catalog__content">
+          <div class="catalog__header">
+            <h2 class="catalog__title">Продукты и сервисы 1С</h2>
+            <div class="catalog__subtitle">
+              <p>Мы являемся официальным дистрибьютором и франчайзи фирмы «1С».</p>
+              <p>Поставляем только официальное лицензионное программное обеспечение по рекомендованной цене.</p>
+            </div>
+          </div>
+          <div class="catalog__tabs">
+            <button class="catalog-tab catalog-tab--active" type="button">Программы 1С</button>
+            <button class="catalog-tab" type="button">Сервисы 1С</button>
+            <button class="catalog-tab" type="button">Битрикс24</button>
+          </div>
+          <div class="catalog__wrapper">
+            <div class="catalog__sidebar">
+              <div class="catalog-search">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M21 21L15 15M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <input type="text" class="catalog-search__input" placeholder="Поиск">
+              </div>
+              <div class="catalog-categories">
+                <button class="catalog-category catalog-category--active" type="button">
+                  <span>Управление ресурсами (ERP)</span>
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.5 3L7.5 6L4.5 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </button>
+                <button class="catalog-category" type="button">
+                  <span>Документооборот</span>
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.5 3L7.5 6L4.5 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </button>
+                <button class="catalog-category" type="button">
+                  <span>Управление предприятием</span>
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.5 3L7.5 6L4.5 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </button>
+                <button class="catalog-category" type="button">
+                  <span>Управленческий учет (МСФО)</span>
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.5 3L7.5 6L4.5 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </button>
+                <button class="catalog-category" type="button">
+                  <span>Торговля, склад, транспорт</span>
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.5 3L7.5 6L4.5 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </button>
+                <button class="catalog-category" type="button">
+                  <span>Бухгалтерский и налоговый учёт</span>
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.5 3L7.5 6L4.5 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </button>
+                <button class="catalog-category" type="button">
+                  <span>Зарплата, персонал и кадровый учет</span>
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.5 3L7.5 6L4.5 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </button>
+                <button class="catalog-category" type="button">
+                  <span>Комплексная автоматизация</span>
+                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.5 3L7.5 6L4.5 9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </button>
+              </div>
+              <div class="catalog-banner">
+                <div class="catalog-banner__badge">Акция</div>
+                <p class="catalog-banner__text">Купите 1С версии ПРОФ и получите до 4 месяцев бесплатного обслуживания</p>
+              </div>
+            </div>
+            <div class="catalog__products">
+              <div class="catalog-product">
+                <div class="catalog-product__icon"></div>
+                <div class="catalog-product__info">
+                  <h3 class="catalog-product__title">1С:ERP Управление предприятием 2</h3>
+                  <p class="catalog-product__description">Программа 1С:ERP Управление предприятием 2 помогает руководителю всегда быть в курсе событий собственного бизнеса</p>
+                </div>
+                <div class="catalog-product__price">662 800 ₽</div>
+              </div>
+              <div class="catalog-product">
+                <div class="catalog-product__icon"></div>
+                <div class="catalog-product__info">
+                  <div class="catalog-product__title-row">
+                    <h3 class="catalog-product__title">1С:Корпорация</h3>
+                    <span class="catalog-product__badge catalog-product__badge--hit">Хит</span>
+                  </div>
+                  <p class="catalog-product__description">1С:Корпорация — это комплексная поставка программ 1С для крупных предприятий, групп компаний и холдингов</p>
+                </div>
+                <div class="catalog-product__price catalog-product__price--sale">
+                  <div class="catalog-product__price-current">3 197 100 ₽</div>
+                  <div class="catalog-product__price-old">3 500 000 ₽</div>
+                  <div class="catalog-product__price-discount">-8%</div>
+                </div>
+              </div>
+              <div class="catalog-product">
+                <div class="catalog-product__icon"></div>
+                <div class="catalog-product__info">
+                  <h3 class="catalog-product__title">1С:ТОИР Управление ремонтами и обслуживанием оборудования</h3>
+                  <p class="catalog-product__description">Решение предназначено для специалистов по организации ремонтов и обслуживания промышленного оборудования</p>
+                </div>
+                <div class="catalog-product__price">187 200 ₽</div>
+              </div>
+              <div class="catalog-product">
+                <div class="catalog-product__icon"></div>
+                <div class="catalog-product__info">
+                  <h3 class="catalog-product__title">1С:ERP. Управление холдингом. Электронная поставка</h3>
+                  <p class="catalog-product__description">Решение для крупных компаний и холдинговых структур со сложной организацией деятельности</p>
+                </div>
+                <div class="catalog-product__price">3 041 100 ₽</div>
+              </div>
+              <div class="catalog-product">
+                <div class="catalog-product__icon"></div>
+                <div class="catalog-product__info">
+                  <div class="catalog-product__title-row">
+                    <h3 class="catalog-product__title">1С:ERP Энергетика 2. Электронная поставка</h3>
+                    <span class="catalog-product__badge catalog-product__badge--new">Новинка</span>
+                  </div>
+                  <p class="catalog-product__description">Решение предназначено для автоматизации основных бизнес-процессов энергетических предприятий</p>
+                </div>
+                <div class="catalog-product__price">900 900 ₽</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog">
+      <div class="blog__container">
+        <div class="blog__content">
+          <div class="blog__header">
+            <h2 class="blog__title">Новости и акции</h2>
+            <div class="blog__controls">
+              <div class="blog__chips">
+                <button class="btn btn--primary btn--sm blog-chip blog-chip--active" type="button">Все</button>
+                <button class="btn btn--secondary-gray btn--sm blog-chip" type="button">Новости</button>
+                <button class="btn btn--secondary-gray btn--sm blog-chip" type="button">Вебинары</button>
+                <button class="btn btn--secondary-gray btn--sm blog-chip" type="button">Акции</button>
+              </div>
+              <div class="blog__slider-controls">
+                <!-- Slider controls -->
+              </div>
+            </div>
+          </div>
+          <div class="blog__feed">
+            <article class="news-card">
+              <img src="./assets/images/news/news-1-infostart.png" alt="КРОН на Инфостарт 2025" class="news-card__img">
+              <div class="news-card__descr">
+                <div class="news-card__meta">
+                  <span class="news-card__category">Новость</span>
+                  <time class="news-card__date">28.10.2025</time>
+                </div>
+                <div class="news-card__info">
+                  <h3 class="news-card__title">КРОН на Инфостарт 2025</h3>
+                  <p class="news-card__text">Делимся впечатлениями о конференции, проходившей с 9 по 11 октября в Санкт-Петербурге.</p>
+                </div>
+              </div>
+            </article>
+            <article class="news-card">
+              <img src="./assets/images/news/news-2-jsonrpc.png" alt="Что такое JSON-RPC" class="news-card__img">
+              <div class="news-card__descr">
+                <div class="news-card__meta">
+                  <span class="news-card__category">вебинар</span>
+                  <time class="news-card__date">01.10.2025</time>
+                </div>
+                <div class="news-card__info">
+                  <h3 class="news-card__title">Что такое JSON-RPC</h3>
+                  <p class="news-card__text">Обзорный митап, на котором обсудили отличия REST от JSON-RPC, особенности запросов в JSON-RPC и многое другое.</p>
+                </div>
+              </div>
+            </article>
+            <article class="news-card">
+              <img src="./assets/images/news/news-3-promo.png" alt="Акция для новых клиентов" class="news-card__img">
+              <div class="news-card__descr">
+                <div class="news-card__meta">
+                  <span class="news-card__category">акция</span>
+                  <time class="news-card__date">01.10.2025</time>
+                </div>
+                <div class="news-card__info">
+                  <h3 class="news-card__title">Акция для новых клиентов</h3>
+                  <p class="news-card__text">Получите скидку 20% на первые 10 часов работ наших программистов!</p>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="blog__subscribe">
+            <div class="subscribe-banner">
+              <div class="subscribe-banner__icon">
+                <img src="./assets/images/subscribe-banner-icon.png" alt="" class="subscribe-banner__icon-img">
+              </div>
+              <div class="subscribe-banner__content">
+                <div class="subscribe-banner__text">
+                  <h3 class="subscribe-banner__title">Подпишитесь на нашу рассылку</h3>
+                  <p class="subscribe-banner__description">Приглашаем на вебинары, делимся опытом и рассказываем о новостях компании</p>
+                </div>
+                <form class="subscribe-banner__form">
+                  <div class="subscribe-input">
+                    <input type="email" class="subscribe-input__field" placeholder="Ваш email" required>
+                    <button class="btn btn--primary btn--md" type="submit">Подписаться</button>
+                  </div>
+                  <label class="subscribe-checkbox">
+                    <input type="checkbox" required>
+                    <span>Я согласен на обработку персональных данных</span>
+                  </label>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Articles Section -->
+    <section class="articles">
+      <div class="articles__container">
+        <div class="articles__content">
+          <div class="articles__header">
+            <h2 class="articles__title">Статьи</h2>
+            <button class="btn btn--secondary-color btn--lg" type="button">Все статьи</button>
+          </div>
+          <div class="articles__grid">
+            <article class="article-card article-card--featured">
+              <img src="./assets/images/articles/article-featured-edt.png" alt="1C:EDT - первые шаги, установка, настройка" class="article-card__img">
+              <div class="article-card__meta">
+                <time class="article-card__date">09.10.2025</time>
+                <div class="article-card__descr">
+                  <h3 class="article-card__title">1C:EDT - первые шаги, установка, настройка</h3>
+                  <p class="article-card__text">
+                    Если вы впервые работаете с 1С EDT, то у вас могут возникнуть вопросы: с чего начать, какие требования необходимы и с какими проблемами можно столкнуться. В этой статье я попробую показать процесс установки и настройки 1С EDT, а также советы по решению распространённых проблем.
+                  </p>
+                  <div class="article-card__footer">
+                    <div class="article-card__author">
+                      <img src="./assets/images/articles/author-avatar-bogdan.png" alt="Богдан Купинский" class="article-card__author-avatar">
+                      <span class="article-card__author-name">Богдан Купинский</span>
+                    </div>
+                    <div class="article-card__time">
+                      <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 9V13L11 14M14 9C14 12.866 11.3137 16 8 16C4.68629 16 2 12.866 2 9C2 5.13401 4.68629 2 8 2C11.3137 2 14 5.13401 14 9Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                      <span>12 мин.</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <div class="articles__list">
+              <article class="article-card article-card--compact">
+                <img src="./assets/images/articles/article-compact-rest-api.png" alt="Интеграция 1С с веб-сервисами через REST API" class="article-card__img">
+                <div class="article-card__meta">
+                  <time class="article-card__date">10.07.2025</time>
+                  <div class="article-card__descr">
+                    <h3 class="article-card__title">Интеграция 1С с веб-сервисами через REST API: как и зачем</h3>
+                    <div class="article-card__footer">
+                      <div class="article-card__author">
+                        <img src="./assets/images/articles/author-avatar-ivan.png" alt="Иван Иванов" class="article-card__author-avatar">
+                        <span class="article-card__author-name">Иван Иванов</span>
+                      </div>
+                      <div class="article-card__time">
+                        <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M8 9V13L11 14M14 9C14 12.866 11.3137 16 8 16C4.68629 16 2 12.866 2 9C2 5.13401 4.68629 2 8 2C11.3137 2 14 5.13401 14 9Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <span>6 мин.</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <article class="article-card article-card--compact">
+                <img src="./assets/images/articles/article-compact-tech-debt.png" alt="Технический долг в 1С" class="article-card__img">
+                <div class="article-card__meta">
+                  <time class="article-card__date">03.07.2025</time>
+                  <div class="article-card__descr">
+                    <h3 class="article-card__title">Технический долг в 1С: как он возникает, чем опасен и как с ним бороться</h3>
+                    <div class="article-card__footer">
+                      <div class="article-card__author">
+                        <img src="./assets/images/articles/author-avatar-ivan.png" alt="Иван Иванов" class="article-card__author-avatar">
+                        <span class="article-card__author-name">Иван Иванов</span>
+                      </div>
+                      <div class="article-card__time">
+                        <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M8 9V13L11 14M14 9C14 12.866 11.3137 16 8 16C4.68629 16 2 12.866 2 9C2 5.13401 4.68629 2 8 2C11.3137 2 14 5.13401 14 9Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <span>10 мин.</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <article class="article-card article-card--compact">
+                <img src="./assets/images/articles/article-compact-element.png" alt="1С:Предприятие.Элемент" class="article-card__img">
+                <div class="article-card__meta">
+                  <time class="article-card__date">02.04.2025</time>
+                  <div class="article-card__descr">
+                    <h3 class="article-card__title">Как начать работать с 1С:Предприятие.Элемент</h3>
+                    <div class="article-card__footer">
+                      <div class="article-card__author">
+                        <img src="./assets/images/articles/author-avatar-alexey.png" alt="Алексей Попов" class="article-card__author-avatar">
+                        <span class="article-card__author-name">Алексей Попов</span>
+                      </div>
+                      <div class="article-card__time">
+                        <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M8 9V13L11 14M14 9C14 12.866 11.3137 16 8 16C4.68629 16 2 12.866 2 9C2 5.13401 4.68629 2 8 2C11.3137 2 14 5.13401 14 9Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <span>5 мин.</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+      <div class="testimonials__container">
+        <div class="testimonials__content">
+          <div class="testimonials__header">
+            <h2 class="testimonials__title">Наши клиенты о нас</h2>
+            <div class="testimonials__slider-controls">
+              <!-- Slider controls -->
+            </div>
+          </div>
+          <div class="testimonials__list">
+            <div class="testimonial-card">
+              <div class="testimonial-card__quote">
+                <p class="testimonial-card__text">
+                  Компания "АТОЛ", в лице руководителя проекта ERP благодарит Вас за сотрудничество, отмечая высокий профессионализм, креативность, гибкость мышления и творческий и в тоже время технологичный подход сотрудников компании КРОН в исполнении задач по разработке программы 1С:ERP под требования заказчика. Выражаем искреннюю благодарность за качественную работу и высокий профессионализм и высокий стандарт в разработке. Надеемся на дальнейшее плодотворное сотрудничество.
+                </p>
+                <a href="#" class="testimonial-card__link">Читать полностью</a>
+              </div>
+              <div class="testimonial-card__meta">
+                <div class="testimonial-card__author">
+                  <h4 class="testimonial-card__author-name">Янкавцева Т.</h4>
+                  <p class="testimonial-card__author-role">Руководитель проекта</p>
+                </div>
+                <time class="testimonial-card__date">24.12.2019</time>
+              </div>
+            </div>
+            <div class="testimonial-card">
+              <div class="testimonial-card__quote">
+                <p class="testimonial-card__text">
+                  Группа компаний ЮНИС Лабс работает на рынках бизнес-консалтинга и информационных технологий с 1999 года. Высокий профессионализм специалистов и огромный накопленный опыт реализации ИТ-решений, широкая экспертиза во всех областях информационных технологий и знание специфики отраслевой информатизации позволяют эффективно и с гарантией качества решать задачи заказчика всех уровней сложности. С компанией "КРОН" начали работать, когда на одном проекте не хватало сильного программиста по конфигурации "Документооборот 2". Во время работы, сотрудница компании "КРОН" показала себя как очень грамотный и профессиональный специалист. Все поставленные задачи были выполнены качественно и в срок. Оказывалась консультация по всем реализованным решениям, нареканий к качеству работ не возникло. Рекомендуем компании "КРОН", как команду профессиональных программистов 1С.
+                </p>
+                <a href="#" class="testimonial-card__link">Читать полностью</a>
+              </div>
+              <div class="testimonial-card__meta">
+                <div class="testimonial-card__author">
+                  <h4 class="testimonial-card__author-name">Ахтырченко К.В</h4>
+                  <p class="testimonial-card__author-role">Генеральный директор</p>
+                </div>
+                <time class="testimonial-card__date">16.05.2019</time>
+              </div>
+            </div>
+            <div class="testimonial-card">
+              <div class="testimonial-card__quote">
+                <p class="testimonial-card__text">
+                  Print Bar - сервис по быстрому созданию одежды с уникальными принтами, в котором каждый может выступать покупателем изделий с уже готовым дизайном и легко создавать свои коллекции. Это собственное производство кастомизированной одежды и аксессуаров, оснащенное современным оборудованием, позволяющее нам создавать уникальные продукты для Клиентов. Для учета производства используется система собственной разработки на базе платформы 1С 8.3, которая интегрирована с другими нашими корпоративными системами на базе веб-технологий. Разработка и обслуживание производственного блока осуществлялось силами внешней привлеченной компании, от услуг которой из-за неудовлетворительного качества было решение отказаться летом 2018г. Был рассмотрен ряд компаний и выбрана компания КРОН, которая предложила наиболее интересные условия и показала наличие необходимых профессиональных навыков. Специалисты компании КРОН оперативно подхватили техническое сопровождение системы производственного учета, проявили высокий профессионализм и разобрались в нюансах работы системы фактически без документации с нашей стороны. Все поставленные задачи были успешно выполнены. На протяжении всего проекта специалисты компании КРОН были на связи и оперативно реагировали на все наши запросы. Благодаря компании КРОН нам удалось сделать работу пользователя в системе более удобной и эффективной. Мы рекомендуем компанию "КРОН", как надежного партнера и команду профессионалов своего дела.
+                </p>
+                <a href="#" class="testimonial-card__link">Читать полностью</a>
+              </div>
+              <div class="testimonial-card__meta">
+                <div class="testimonial-card__author">
+                  <h4 class="testimonial-card__author-name">Сургучев Р.А</h4>
+                  <p class="testimonial-card__author-role">Руководитель проекта</p>
+                </div>
+                <time class="testimonial-card__date">03.10.2018</time>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Form Section -->
+    <section class="form-section">
+      <div class="form-section__container">
+        <div class="form-section__content">
+          <div class="form-section__text">
+            <h2 class="form-section__title">Получите бесплатную консультацию</h2>
+            <div class="form-section__steps">
+              <div class="form-step">
+                <div class="form-step__number">01</div>
+                <p class="form-step__text">Наш специалист свяжется с вами для уточнения деталей.</p>
+              </div>
+              <div class="form-step">
+                <div class="form-step__number">02</div>
+                <p class="form-step__text">Если потребуется, подключим аналитика с релевантным опытом. Для защиты данных подпишем NDA.</p>
+              </div>
+              <div class="form-step">
+                <div class="form-step__number">03</div>
+                <p class="form-step__text">Сформируем подробное коммерческое предложение с расчётом бюджета, сроками выполнения и описанием команды проекта.</p>
+              </div>
+            </div>
+          </div>
+          <div class="form-section__form-container">
+            <form class="consultation-form">
+              <div class="consultation-form__fields">
+                <div class="form-field">
+                  <label class="form-field__label">Ваше имя *</label>
+                  <input type="text" class="form-field__input" required>
+                </div>
+                <div class="form-field-row">
+                  <div class="form-field">
+                    <label class="form-field__label">Телефон *</label>
+                    <input type="tel" class="form-field__input" required>
+                  </div>
+                </div>
+                <div class="form-field">
+                  <label class="form-field__label">Сообщение</label>
+                  <textarea class="form-field__textarea" rows="5" placeholder="Пара слов о вашем проекте"></textarea>
+                </div>
+                <label class="form-checkbox">
+                  <input type="checkbox" checked required>
+                  <span>Я согласен на обработку персональных данных</span>
+                </label>
+              </div>
+              <button class="btn btn--primary btn--xl" type="submit">Отправить</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer будет загружен через модуль -->
+  <script src="./components/footer/load-footer.js" defer></script>
+</body>
+</html>
