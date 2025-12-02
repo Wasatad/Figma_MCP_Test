@@ -1,0 +1,105 @@
+.checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--num-3);
+}
+
+.checkbox {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--num-2);
+  font: var(--text-sm-regular);
+  color: var(--gray-800);
+}
+
+.checkbox__input {
+  position: absolute;
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.checkbox__box {
+  width: var(--checkbox-size);
+  height: var(--checkbox-size);
+  border-radius: var(--checkbox-radius);
+  border: 1px solid var(--checkbox-border);
+  background: var(--checkbox-bg);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color 150ms ease, background 150ms ease, box-shadow 150ms ease;
+  box-shadow: var(--checkbox-shadow);
+}
+
+.checkbox__input:focus-visible + .checkbox__box {
+  box-shadow: var(--focus-ring-primary-100);
+}
+
+.checkbox__input:checked + .checkbox__box {
+  background: var(--checkbox-checked-bg);
+  border-color: var(--checkbox-checked-border);
+}
+
+.checkbox__input:checked + .checkbox__box::after {
+  content: '✓';
+  color: var(--checkbox-check-color);
+  font-size: 0.9rem;
+  line-height: 1;
+}
+
+.checkbox[data-state='mixed'] .checkbox__box {
+  background: var(--checkbox-checked-bg);
+  border-color: var(--checkbox-checked-border);
+}
+
+.checkbox[data-state='mixed'] .checkbox__box::after {
+  content: '';
+  width: 10px;
+  height: 2px;
+  border-radius: var(--radius-1);
+  background: var(--checkbox-check-color);
+}
+
+.checkbox__content {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.checkbox__label {
+  font: var(--text-sm-medium);
+  color: var(--gray-800);
+}
+
+.checkbox__hint {
+  font: var(--field-hint-font);
+  color: var(--gray-500);
+}
+
+.checkbox--disabled {
+  color: var(--gray-400);
+}
+
+.checkbox--disabled .checkbox__box {
+  background: var(--input-disabled-bg);
+  border-color: var(--gray-200);
+  box-shadow: none;
+}
+
+.checkbox--disabled .checkbox__label,
+.checkbox--disabled .checkbox__hint {
+  color: var(--gray-400);
+}
+
+.checkbox--inline {
+  flex-direction: row;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .checkbox-group {
+    gap: var(--num-2);
+  }
+}
